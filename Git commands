@@ -1,0 +1,48 @@
+git --version 
+git status
+git init
+git  config --global user.name'basee'
+git config --global user.basee'baseemakazi'
+git config --global user.email'kazibasee04gmail.com'
+git config --global --list
+
+//add files
+git status
+git add 'test1.docx'
+git add 'test2.docx'
+
+
+//commit those files
+git commmit -m 'fist commit by me'
+
+
+//add origin of github
+git remote add origin "https://github.com/Kazibaseema/test_demo.git"
+
+//pull files
+git pull origin main
+
+
+//push commands
+git push
+ssh-keygen -t rsa b 4094 -C "kazibaseema04@gmail.com"
+
+//add generated pub key
+git status
+git add gitkey.pub
+git status
+
+//now push it
+git push -u origin master
+git commit -m 'have don push'
+
+//git log
+git log
+
+//find by name
+git log --online 'gitcommand.docx'
+
+//find by id
+git log --online 987667
+
+
